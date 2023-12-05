@@ -5,7 +5,7 @@ import * as THREE from "three";
 export default function GlobeFun() {
   const [countries, setCountries] = useState({ features: [] });
   useEffect(() => {
-    fetch("../datasets/custom.geo.json")
+    fetch("/custom.geo.json")
       .then((res) => res.json())
       .then(setCountries);
   }, []);
