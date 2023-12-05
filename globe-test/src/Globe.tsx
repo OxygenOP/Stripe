@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Globe from "react-globe.gl";
 import * as THREE from "three";
 
