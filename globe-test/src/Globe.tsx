@@ -7,16 +7,17 @@ export default function GlobeFun() {
   const [width, setWidth] = useState(window.innerWidth * 1.7);
   const [height, setHeight] = useState(window.innerHeight);
   const [scale, setScale] = useState(1.6);
-  const globe_ref = useRef();
+  const globe_ref: any = useRef();
 
   useEffect(() => {
-    let control = globe_ref?.current?.controls();
-    // control.autoRotate = true;
-    control.enableZoom = false;
-
-    globe_ref.current.scene().scale.x = scale;
-    globe_ref.current.scene().scale.y = scale;
-    globe_ref.current.scene().scale.z = scale;
+    if (globe_ref != null) {
+      let control = globe_ref?.current?.controls();
+      // control.autoRotate = true;
+      control.enableZoom = false;
+      globe_ref.current.scene().scale.x = scale;
+      globe_ref.current.scene().scale.y = scale;
+      globe_ref.current.scene().scale.z = scale;
+    }
 
     // control.enabled = false;
   }, [globe_ref, scale]);
