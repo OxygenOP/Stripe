@@ -11,7 +11,7 @@ function Hero() {
           <h1 className="text-[48px] leading-[45px] sm:text-[73px] sm:leading-[71px]   lg:text-[93px] lg:leading-[90px] title-font font-bold w-[11ch]   ">
             Financial infrastructure for the internet
           </h1>
-          <p className="w-[40ch] sm:w-[45ch] text-md sm:text-lg">
+          <p className="w-full max-w-[35ch] sm:w-[45ch] text-md sm:text-lg">
             Millions of companies of all sizes use Stripe online and in person
             to accept payments, send payouts, automate financial processes, and
             ultimately grow revenue.
