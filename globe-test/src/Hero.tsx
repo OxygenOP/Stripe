@@ -8,7 +8,7 @@ function Hero() {
       <Navbar />
       <div className="absolute z-[10] top-0 left-0 w-full h-full flex  pt-[25%] md:pt-0 md:items-center justify-center  ">
         <div className="flex flex-col gap-y-5 p-4 px-8 md:px-4 w-full max-w-screen-lg">
-          <h1 className="text-[53px] leading-[50px] sm:text-[73px] sm:leading-[71px]   lg:text-[93px] lg:leading-[90px] title-font font-bold w-[11ch]   ">
+          <h1 className="text-[48px] leading-[45px] sm:text-[73px] sm:leading-[71px]   lg:text-[93px] lg:leading-[90px] title-font font-bold w-[11ch]   ">
             Financial infrastructure for the internet
           </h1>
           <p className="w-[40ch] sm:w-[45ch] text-md sm:text-lg">
