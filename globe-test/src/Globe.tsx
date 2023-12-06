@@ -99,7 +99,7 @@ export default function GlobeFun() {
   globeMaterial.color = new THREE.Color("#112D53");
 
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden w-screen">
       <div className="absolute w-full h-full overflow-hidden block">
         <div className="relative h-full top-0 left-0 right-0 section_background">
           <div className="cursor-grab globe-angled  ">
