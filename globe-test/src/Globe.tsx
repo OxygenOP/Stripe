@@ -28,6 +28,13 @@ export default function GlobeFun() {
       .then(setCountries);
 
     window.addEventListener("resize", onWindowResize, false);
+    if (window.innerWidth < 550) {
+      setWidth(window.innerWidth * 1.9);
+      setScale(1.3);
+    } else {
+      setWidth(window.innerWidth * 1.7);
+      setScale(1.6);
+    }
 
     return () => {
       window.removeEventListener("resize", onWindowResize);
