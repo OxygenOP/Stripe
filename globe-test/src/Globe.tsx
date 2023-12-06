@@ -12,7 +12,7 @@ export default function GlobeFun() {
   useEffect(() => {
     if (globe_ref != null) {
       let control = globe_ref?.current?.controls();
-      // control.autoRotate = true;
+      control.autoRotate = true;
       control.enableZoom = false;
       globe_ref.current.scene().scale.x = scale;
       globe_ref.current.scene().scale.y = scale;
