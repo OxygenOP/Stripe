@@ -101,7 +101,7 @@ export default function GlobeFun() {
   return (
     <div className="overflow-hidden">
       <div className="absolute w-full h-full overflow-hidden block">
-        <div className="relative h-full top-0 left-0 section_background">
+        <div className="relative h-full top-0 left-0 right-0 section_background">
           <div className="cursor-grab globe-angled  ">
             <Globe
               ref={globe_ref}
